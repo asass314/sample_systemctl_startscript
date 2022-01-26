@@ -1,8 +1,8 @@
-**1. Kleinen Python Server**
+**1. Small Sample Python Server**
 
 
 
-* erstellen als Beispiel
+* from here:
 
 https://pythonbasics.org/webserver/
 
@@ -44,17 +44,17 @@ if __name__ == "__main__":
 
 
 
-Mit curl testen.
+Test with curl: 
 
 curl http://localhost:8080
 
 
 
-**2. Start / Stop Skrip**
+**2. Start / Stop Scrip**
+
+* from here:
 
 https://gist.github.com/tinogomes/447191/f751239eb48e3341b18a79b11995cee7978ee77b
-
-
 
 
 
@@ -171,12 +171,12 @@ exit 0
 
 
 
-Testen:
+Test:
 
 ```
 /usr/local/bin/start_mywebserver.sh start
 /usr/local/bin/start_mywebserver.sh stop
-usw.
+etc.
 ```
 
 
@@ -215,7 +215,7 @@ WantedBy=multi-user.target
 
 
 
-Testen:
+Test:
 
 ```
 systemctl daemon-reload
